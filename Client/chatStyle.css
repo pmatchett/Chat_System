@@ -1,16 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
   font: 13px Helvetica, Arial;
 }
 
+#output{
+  display: flex;
+}
+
 #messages {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  flex: 2 1 60%;
+  min-height: 50%;
+  background-color: blue;
+}
+
+#users{
+  list-style-type: none;
+  flex: 1 2 40%;
+  min-height: 50%;
+  background-color: green;
 }
 #messages li {
   padding: 5px 10px;
