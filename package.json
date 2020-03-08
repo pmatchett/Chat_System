@@ -1,0 +1,26 @@
+{
+  "name": "chat_system",
+  "version": "1.0.0",
+  "description": "Chat system assignment for web-based systems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmatchett/Chat_System.git"
+  },
+  "author": "Patrick Matchett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmatchett/Chat_System/issues"
+  },
+  "homepage": "https://github.com/pmatchett/Chat_System#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie": "^0.4.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
